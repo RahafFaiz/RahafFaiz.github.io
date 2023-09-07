@@ -1,0 +1,44 @@
+body{
+width: 100%;
+height: 100vh;
+background: linear-gradient(57.4deg, rgb(249, 206, 183) 4.6%, rgb(234, 174, 202) 26%, rgb(210, 182, 226) 49.1%, rgb(173, 209, 242) 86.5%);
+background-size: 300% 300%;
+animation: color 12s ease-in-out infinite;
+}
+
+@keyframes color{
+
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+
+
+.PersonalLogo{
+width: 80px;
+height: 80px;
+position: absolute;
+left:470px;
+top: 0;
+
+}
+
+.PageLogo{
+    width: 300px;
+height: 250px;
+margin-top: 50px;
+margin-left: 80px;
+}
+
+ul li{
+    font-size: medium;
+    font-weight: 530;
+    
+}
