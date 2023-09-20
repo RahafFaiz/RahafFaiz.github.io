@@ -1,34 +1,13 @@
+
 body{
-width: 100%;
-height: 100vh;
-background: linear-gradient(57.4deg, rgb(249, 206, 183) 4.6%, rgb(234, 174, 202) 26%, rgb(210, 182, 226) 49.1%, rgb(173, 209, 242) 86.5%);
-background-size: 300% 300%;
-animation: color 12s ease-in-out infinite;
-}
+    background-image: url("./Images/PersonalLogo.jpg.png"); 
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 120px;
+    background-color:  rgb(225, 196, 206);
+ }
 
-@keyframes color{
-
-    0%{
-        background-position: 0 50%;
-    }
-    50%{
-        background-position: 100% 50%;
-    }
-    100%{
-        background-position: 0 50%;
-    }
-}
-
-
-
-.PersonalLogo{
-width: 80px;
-height: 80px;
-position: absolute;
-left:470px;
-top: 0;
-
-}
 
 .PageLogo{
     width: 300px;
@@ -37,8 +16,99 @@ margin-top: 50px;
 margin-left: 80px;
 }
 
-ul li{
+h1,h3{
+ color: rgb(8, 8, 36);
+}
+
+
+ul{
     font-size: medium;
     font-weight: 530;
+    list-style: square;
     
+}
+ol{
+    list-style: upper-roman;
+}
+ol ol{
+    list-style: lower-roman;
+}
+
+a:visited{
+    text-decoration: none;
+    color: red;
+}
+
+a:link{
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: green;
+}
+
+a:active{
+    text-decoration: underline;
+    color: black;
+}
+
+.prgraph1{
+    font-size: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(5, 9, 55);
+}
+
+.prgraph2{
+    font-size: small;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(8, 13, 66);
+}
+
+.prgraph3{
+    font-size: 90%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(12, 16, 60);
+}
+
+.prgraph4{
+    font-size: 91%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(13, 16, 56);
+}
+
+.prgraph5{
+
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(22, 25, 57);
+}
+
+.prgraph6{
+font-size: 85%;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: rgb(3, 7, 52);
+}
+
+.prgraph7{
+font-size: 87%;
+font-family: 'Times New Roman', Times, serif;
+color: rgb(7, 9, 23);
+}
+
+.prgraph8{
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(19, 21, 34);
+}
+.prgraph9{
+font-size: 95%;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: rgb(18, 19, 24);
+}
+.prgraph10{
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(10, 10, 16);
 }
