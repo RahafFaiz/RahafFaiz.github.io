@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dark And Light Mode</title>
+  <meta charset="utf-8">
+  <style type="text/css">
+    body {
+      transition: background-color 0.5s, color 0.5s;
+      background-color: white;
+      color: black;
+    }
+
+    .DarkMode {
+      background-color: black;
+      color: white;
+      
+    }
+  </style>
+  <script>
+    function lightMode() {
+      document.body.classList.remove("DarkMode");
+    }
+
+    function darkMode() {
+      document.body.classList.add("DarkMode");
+    }
+  </script>
+</head>
+<body>
+    <button class="DarkMode"  onclick="darkMode()">Darkmode</button>
+    <button onclick="lightMode()">LightMode</button>
+  <h1>Example 1</h1>
+  <h3>Mode of the page</h3>
+  <p>Click the button to toggle between dark and light mode for this page.</p>
+</body>
+</html>
